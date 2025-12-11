@@ -17,9 +17,9 @@
     <p>Detector doesn't recognizes alphabet I ❌ </p>
 </div>
 
-# 🧱 Versions Built
+## 🧱 Versions Built
 - [Detector_v0.0](Detector_v0.0) -> Recognizes the pattern and sub-patterns of the weighted-pattern.
 
-# 🔜 Future Versions
-- More precise detection, ensuring only the intented pattern with weights is only recognized.
+## 🔜 Future Versions
+- More precise detection, ensuring only the intented pattern with weights is only recognized, not the sub-patterns
 - Adding numerical weights to the weight array for more control and programmability.
