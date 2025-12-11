@@ -6,7 +6,7 @@
     <img src="Detector_v0.0/Images/Pattern-Recognition-2.png" 
          alt="Pattern Detector Output" 
          width="1000">
-    <p>Detector recognizes alphabet T </p>
+    <p>Detector recognizes alphabet T ✅ </p>
 </div>
 
 
@@ -14,5 +14,12 @@
     <img src="Detector_v0.0/Images/Pattern-Recognition-1.png" 
          alt="Pattern Detector Output" 
          width="1000">
-    <p>Detector doesn't recognizes alphabet I </p>
+    <p>Detector doesn't recognizes alphabet I ❌ </p>
 </div>
+
+# 🧱 Versions Built
+- [Detector_v0.0](Detector_v0.0) -> Recognizes the pattern and sub-patterns of the weighted-pattern.
+
+# 🔜 Future Versions
+- More precise detection, ensuring only the intented pattern with weights is only recognized.
+- Adding numerical weights to the weight array for more control and programmability.
