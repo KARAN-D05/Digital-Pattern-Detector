@@ -10,13 +10,6 @@
 </div>
 
 
-<div align="center">
-    <img src="Detector_v0.0/Images/Pattern-Recognition-1.png" 
-         alt="Pattern Detector Output" 
-         width="1000">
-    <p>Detector doesn't recognizes alphabet I ❌ </p>
-</div>
-
 ## 🧱 Versions Built
 - [Detector_v0.0](Detector_v0.0) -> Recognizes the pattern and sub-patterns of the weighted-pattern.
 
