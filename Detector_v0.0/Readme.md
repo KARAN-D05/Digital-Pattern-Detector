@@ -11,5 +11,6 @@
 
 
 ## Weight Array
-- SOON -
-
+- It is a 4×4 array used to configure the machine for detection of a particular pattern.
+- It acts as a filter, and only allows the input to the output side only if the corresponding weight is 1/High and don't allow the rest.
+- W<sub>rc</sub> is the weight array element, where 4&ge;r&le;0 and 4&ge;c&le;0
