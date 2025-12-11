@@ -25,8 +25,8 @@
 - A 4×4 grid that shows output, that is equal to O<sub>rc</sub> = A<sub>rc</sub> × W<sub>rc</sub>.
 
 ## 🧠Decision Maker
-- A 4×4 grid made up od XNOR gates that checks for exact equivalence between input pattern and the output pattern
-- Equivalence Check = &and;(A<sub>rc</sub> ≡ O<sub>rc</sub>)
+- A 4×4 grid made up of XNOR gates that checks for exact equivalence between input pattern and the output pattern
+- Equivalence Check = (A<sub>00</sub> ⊕ O<sub>00</sub>) ∧ (A<sub>01</sub> ⊕ O<sub>01</sub>) ∧ ... ∧ (A<sub>44</sub> ⊕ O<sub>44</sub>)
    - If Equivalence Check -> 1; Pattern recognized
    - If Equivalence Check -> 0; Pattern not recognized
 - Input **Recognized** if the input pattern A<sub>rc</sub> &subseteq; W<sub>rc</sub>.
@@ -43,3 +43,4 @@
 ## ⚠️Limitations
 - It also recognizes the sub-patterns or the garbage patterns of the Weight grid.
 - Looks for perfect equivalence.
+
