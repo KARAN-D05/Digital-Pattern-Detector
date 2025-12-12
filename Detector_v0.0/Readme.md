@@ -41,7 +41,17 @@
 </p>
 
 ## ⚠️Limitations
+
+<p align="center">
+  <img src="Images/Sub-Pattern recognition.png" alt="Pattern Detector Output" width="1000">
+</p>
+
+<p align="center">
+  Detector recognizes Sub-pattern
+</p>
+
 - It also recognizes the sub-patterns or the garbage patterns of the Weight grid.
 - Looks for perfect equivalence between input and filtered output.
 - No scoring or noise tolerance - expects clean inputs.
 - My attempt at a perceptron ended up as a binary pixel filter + comparator. **Basically v0.0 is a machine the George Orwell's 1984 Thought Police would approve of 😂**.
+
