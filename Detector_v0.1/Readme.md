@@ -1,4 +1,4 @@
-#🕵️‍♂️ Detector-V0.1
+# 🕵️‍♂️ Detector-V0.1
 - Solves the sub-pattern recognition problem of the [Detector_v0.0](../Detector_v0.0) 
 
 <p align="center">
@@ -23,5 +23,6 @@
 <p align="center">
   Detector recognizes pattern
 </p>
+
 
 
