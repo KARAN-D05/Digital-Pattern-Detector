@@ -43,4 +43,4 @@
 ## ⚠️Limitations
 - It also recognizes the sub-patterns or the garbage patterns of the Weight grid.
 - Looks for perfect equivalence.
-- Honestly, I tried to make a self-learning unit inspired by Rosenblatt’s perceptron, but since my weights were binary instead of analog, it basically became a pixel filter 😂.
+- My attempt at a perceptron ended up as a binary pixel filter and comparator. Basically v0.0 is a machine the George Orwell's 1984 Thought Police would approve of 😂.
