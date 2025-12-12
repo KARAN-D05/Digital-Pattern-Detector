@@ -11,7 +11,7 @@
 
 ## 🧠Decision Maker
 - This version checks equivalence between Weight Grid W<sub>rc</sub> and Output Grid O<sub>rc</sub> as opposed to between Input Grid A<sub>rc</sub> and Ouptut Grid O<sub>rc</sub> in Detector_v0.0.
-- This takes the allowed weight pattern as a law as opposed to as a limit.
+- This takes the allowed weight pattern as a law as opposed to a limit.
 - Mathematical Behaviour:-
     - Input **Recognized** if O<sub>rc</sub> = W<sub>rc</sub>
     - Input **not recognized** if O<sub>rc</sub> ≠ W<sub>rc</sub>
@@ -23,3 +23,4 @@
 <p align="center">
   Detector recognizes pattern
 </p>
+
