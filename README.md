@@ -15,4 +15,4 @@
 
 ## 🔜 Future Versions
 - More precise detection, ensuring only the intented pattern with weights is only recognized, not the sub-patterns
-- Adding numerical weights to the weight array for more control and programmability.
+- Popcount based judgement instead of perfect equivalence check.
