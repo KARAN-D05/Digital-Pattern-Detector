@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  Detector recognizes alphabet T
+  Detector recognize alphabet T
 </p>
 
 
@@ -54,3 +54,4 @@
 - Looks for perfect equivalence between input and filtered output.
 - No scoring or noise tolerance - expects clean inputs.
 - My attempt at a perceptron ended up as a binary pixel filter + comparator. **Basically v0.0 is a machine the George Orwell's 1984 Thought Police would approve of 😂**.
+
