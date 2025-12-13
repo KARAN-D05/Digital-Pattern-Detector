@@ -32,7 +32,7 @@
 - A 4×4 grid that shows output, that is equal to O<sub>rc</sub> = A<sub>rc</sub> ∧ W<sub>rc</sub>.
 
 ## 🧠Decision Maker
-- This version checks equivalence between Weight Grid W<sub>rc</sub> and Output Grid O<sub>rc</sub> as opposed to between Input Grid A<sub>rc</sub> and Ouptut Grid O<sub>rc</sub> in Detector_v0.0.
+- This version checks equivalence between Weight Grid W<sub>rc</sub> and Output Grid O<sub>rc</sub> as opposed to between Input Grid A<sub>rc</sub> and Ouptut Grid O<sub>rc</sub> in [Detector_v0.0](../Detector_v0.0).
 - This Sets a lower bound below which pattern cannot be recognized.
 - Equivalence Check = (A<sub>00</sub> ⊙ O<sub>00</sub>) ∧ (A<sub>01</sub> ⊙ O<sub>01</sub>) ∧ ... ∧ (A<sub>33</sub> ⊙ O<sub>33</sub>)
    - If Equivalence Check -> 1; Pattern recognized
@@ -55,5 +55,6 @@
 <p align="center">
   Detector recognizes equivalent pattern
 </p>
+
 
 
