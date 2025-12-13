@@ -26,7 +26,6 @@
 - Let R<sub>1</sub> represent recognition and R̅<sub>1</sub> represent derecognition by Detector_v0.1.
 - Final Decision making stage:
    - Logical Analyzer
-      - Made up of AND gates for final logical analysis and decision making 
         - R<sub>0</sub>R<sub>1</sub>, represent both POVs recognize the input pattern, hence suggesting it is Equivalence, as it is the only common intersection on which they can agree upon.
         - R̅<sub>0</sub>R<sub>1</sub>, represent only Detector_v0.1 recognizing the input pattern, hence a super-pattern.
         - R<sub>0</sub>R̅<sub>1</sub>, represent only Detector_v0.0 recognizing the input pattern, hence a sub-pattern.
@@ -49,4 +48,3 @@
 ## ✔ Why this is not Self-learniing Intelligence or a Perceptron:
 - A perceptron evaluates degrees of similarity and adapts over time, while this system uses the embedded intelligence of its architecture to make decisons. Our machine can reason but not improve.
 - This system exhibits embedded intelligence: it can reason about and classify relationships between patterns using fix logical rules. However, it is not a self-learning system.
-
