@@ -25,7 +25,8 @@
 - A 4×4 grid that shows output, that is equal to O<sub>rc</sub> = A<sub>rc</sub> ∧ W<sub>rc</sub>.
 
 ## 🧠Decision Maker
-- A 4×4 grid made up of XNOR gates that checks for exact equivalence between input pattern and the output pattern
+- A 4×4 grid made up of XNOR gates that checks for exact equivalence between input pattern and the output pattern.
+- This sets an upper bound above which pattern cannot be recognized.
 - Equivalence Check = (A<sub>00</sub> ⊙ O<sub>00</sub>) ∧ (A<sub>01</sub> ⊙ O<sub>01</sub>) ∧ ... ∧ (A<sub>33</sub> ⊙ O<sub>33</sub>)
    - If Equivalence Check -> 1; Pattern recognized
    - If Equivalence Check -> 0; Pattern not recognized
@@ -33,11 +34,11 @@
 - Input **Not Recognized** if the input pattern A<sub>rc</sub> &nsubseteq; W<sub>rc</sub>.
 
 <p align="center">
-  <img src="Images/Pattern-Recognition-1.png" alt="Pattern Detector Output" width="1000">
+  <img src="Images/super-pattern-disrecognition.png" alt="Pattern Detector Output" width="1000">
 </p>
 
 <p align="center">
-  Detector does not recognize alphabet I
+  Detector does not recognize super-pattern
 </p>
 
 ## ⚠️Limitations
@@ -54,4 +55,3 @@
 - Looks for perfect equivalence between input and filtered output.
 - No scoring or noise tolerance - expects clean inputs.
 - My attempt at a perceptron ended up as a binary pixel filter + comparator. **Basically v0.0 is a machine the George Orwell's 1984 Thought Police would approve of 😂**.
-
